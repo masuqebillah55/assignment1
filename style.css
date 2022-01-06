@@ -1,0 +1,166 @@
+body{
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* focused css */
+.focused{
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.focused-img img{
+    width: 80%;
+    float: right;
+}
+.heading {
+    padding-left: 10px;
+    border-left: 5px solid #333333;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 65px;
+    margin: 5px 0;
+    color: #333333;
+}
+h1 span {
+    color: #FF6959;
+}
+.button {
+    text-decoration: none;
+    font-size: 16px;
+    background: #FF6959;
+    padding: 13px 25px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+/* mission css */
+.mission h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+.protfolio-box{
+    display: flex;
+}
+.single-protfolio {
+    width: 33%;
+    background: beige;
+    padding: 25px;
+    border-radius: 10px;
+}
+#left{
+    background-color: #EDF5F6;;
+}
+#middle{
+    margin: 0 15px;
+    background-color: #FFEEEE;
+    
+}
+#right{
+    background-color: #FFF4D6;;
+}
+.single-protfolio h3 {
+    font-size: 35px;
+}
+.single-protfolio img{
+    width: 50%;
+}
+
+/* develope css */
+.develop{
+    margin: 80px 0;
+}
+.develope-image img {
+    width: 85%;
+}
+.develope-text h2 {
+    font-size: 40px;
+    padding: 5px 0;
+    margin: 0;
+}
+/* community css */
+.community{
+    padding: 80px 0;
+}
+.team h2{
+    font-size: 40px;
+    padding: 5px 0;
+    margin: 0;
+}
+.community img {
+    width: 80%;
+    float: right;
+}
+
+/* team css */
+.team{
+    margin: 80px 0;
+}
+.team-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.single-team{
+    display: flex;
+}
+.team-wrapper{
+    width: 25%;
+    margin:0 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+.team-wrapper img{
+    width: 100%;
+}
+.single-team-text{
+    border-bottom: 3px solid #FF6959;
+}
+.single-team-text h3{
+    margin: 0;
+}
+.single-team-text p{
+    margin: 5px;
+}
+/* footer css */
+.footer-text{
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-text h1 {
+    font-family: 'Lily Script One', cursive;
+    color: #fff;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 0;
+}
+.footer-text p{
+    color: #EDF5F6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
